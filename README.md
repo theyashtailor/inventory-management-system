@@ -1,4 +1,4 @@
-Title: Inventory management system
+**Title: Inventory management system**
 
 Scenario: An online manufacturing business finds it challenging to effectively track and manage its large inventory. The company sells a variety of products under various brand names, and managing inventories manually has grown labour-intensive, prone to mistakes, and detrimental to the general efficiency of the organization.
 
