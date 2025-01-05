@@ -1,21 +1,43 @@
-**Title: Inventory management system**
+# Inventory Management System
 
-Scenario: An online manufacturing business finds it challenging to effectively track and manage its large inventory. The company sells a variety of products under various brand names, and managing inventories manually has grown labour-intensive, prone to mistakes, and detrimental to the general efficiency of the organization.
+This project develops an inventory management system for an online manufacturing business that faces challenges in effectively tracking and managing a large inventory across various brands. The system aims to automate key processes, improve real-time visibility, and enhance supply chain efficiency.
 
-Business Challenge: The current manual inventory management system is leading to inaccuracies, stockouts, overstock situations, and inefficiencies in the supply chain. This results in lost sales opportunities, increased carrying costs, inconsistent production and a poor customer experience due to delayed or unavailable products. 
+## Table of Contents
+- [Introduction](#introduction)
+- [System Overview](#system-overview)
+- [Features](#features)
+- [User Types](#user-types)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Security Measures](#security-measures)
+- [Future Enhancements](#future-enhancements)
+- [Contributors](#contributors)
+- [License](#license)
 
-The company needs a solution that provides real-time visibility into its inventory, automates key processes, and streamlines the overall supply chain with proper reports.
+## Introduction
+This inventory management system addresses inefficiencies in manual inventory management, including inaccuracies, stockouts, overstock situations, and overall supply chain delays that affect customer experience and business performance.
 
-Four primary user types are included in inventory management systems.
-Users:
+## System Overview
+The system integrates with the company’s e-commerce platform and supports different user roles with tailored access and functionality. It automates inventory tracking, order processing, and customer interactions, significantly reducing human errors and operational costs.
 
-1.	Administrators: The employees or division in charge of overseeing all business operations are known as administrators. Majorly they enter and maintain products and brands in the database. This user type has complete access to the database through the website's backend portal.
+## Features
+- Real-time inventory tracking.
+- Automated order processing.
+- Detailed analytics and reporting on sales, inventory levels, and customer activities.
+- Customizable alerts for low stock and order fulfillment statuses.
 
-2.	Customer: Consumers are another important source of data for the database system since they build and update their profiles and use the website to make purchases.
+## User Types
+- **Administrators:** Full database access, manage products and brands.
+- **Customers:** Create profiles, place orders, and manage their account information.
+- **Inventory Management Staff:** Oversee order processing and inventory control with restricted database access.
+- **Customer Care Representatives:** Access to customer tables to address inquiries and support issues.
 
-3.	Inventory management staff: This user type oversees the company's supply chain and is in charge of tasks including order processing and inventory control. This kind of user has restricted access to the database; while they can add or edit specific tables, they are unable to remove anything from the database.
-
-4.	Customer care representative: This user type is in charge of helping customers by responding to their inquiries on the company's behalf. They have access to a restricted database, such as just a customer table. 
-
+## Technology Stack
+- Database Management: SQL for structured data storage and querying.
+- Back-end Development: Python/Flask for server-side logic.
+- Front-end Development: HTML, CSS, and JavaScript for user interface design.
+- Security: Implementation of SSL, data encryption, and access control.
 
 ![image](https://github.com/user-attachments/assets/46fc6357-f68c-405e-8a66-104593206edb)
+
